@@ -1,0 +1,124 @@
+{
+  "DCGAN": {
+    "baseline": {
+      "epochs": 30,
+      "params": 1846980,
+      "kid": 0.0593342661857605,
+      "sampling_time_s": 0.020618525999452686,
+      "throughput_img_per_s": 49664.07395112443,
+      "train_time_total_s": 149.65967842999817,
+      "train_time_per_epoch_s": 4.988655947666605
+    },
+    "scaled-30ep": {
+      "epochs": 30,
+      "params": 3753508,
+      "kid": 0.05591994047164917,
+      "sampling_time_s": 0.019162069998856168,
+      "throughput_img_per_s": 53438.90300270927,
+      "train_time_total_s": 155.32873036700767,
+      "train_time_per_epoch_s": 5.177624345566922
+    },
+    "scaled-40ep": {
+      "epochs": 40,
+      "params": 3753508,
+      "kid": 0.04361260652542114,
+      "sampling_time_s": 0.018756270001176745,
+      "throughput_img_per_s": 54595.07673624636,
+      "train_time_total_s": 205.45372628700352,
+      "train_time_per_epoch_s": 5.136343157175088
+    }
+  },
+  "VAE": {
+    "baseline": {
+      "epochs": 30,
+      "params": 3518214,
+      "kid": 0.28896738052368165,
+      "nll": -3560.793196875,
+      "sampling_time_s": 0.029953461000332027,
+      "throughput_img_per_s": 34186.36664352908,
+      "train_time_total_s": 96.20418084700032,
+      "train_time_per_epoch_s": 3.206806028233344
+    },
+    "scaled-30ep": {
+      "epochs": 30,
+      "params": 7906950,
+      "kid": 0.2989071297645569,
+      "nll": -3592.716390625,
+      "sampling_time_s": 0.02064305299973057,
+      "throughput_img_per_s": 49605.06568545675,
+      "train_time_total_s": 97.53374299399547,
+      "train_time_per_epoch_s": 3.251124766466516
+    },
+    "scaled-40ep": {
+      "epochs": 40,
+      "params": 7906950,
+      "kid": 0.2946724534034729,
+      "nll": -3745.476532421875,
+      "sampling_time_s": 0.02148470000065572,
+      "throughput_img_per_s": 47661.824459673495,
+      "train_time_total_s": 130.00155731299674,
+      "train_time_per_epoch_s": 3.2500389328249186
+    }
+  },
+  "PixelCNN": {
+    "baseline": {
+      "epochs": 30,
+      "params": 268992,
+      "kid": 0.2083110213279724,
+      "nll": 3.696473169326782,
+      "sampling_time_s": 30.263788566000585,
+      "throughput_img_per_s": 33.83581661518736,
+      "train_time_total_s": 204.7860921729989,
+      "train_time_per_epoch_s": 6.826203072433297
+    },
+    "scaled-30ep": {
+      "epochs": 30,
+      "params": 744480,
+      "kid": 0.25486252069473264,
+      "nll": 3.6281274520874023,
+      "sampling_time_s": 50.97013391300061,
+      "throughput_img_per_s": 20.090196383392573,
+      "train_time_total_s": 298.3788602930108,
+      "train_time_per_epoch_s": 9.945962009767026
+    },
+    "scaled-40ep": {
+      "epochs": 40,
+      "params": 744480,
+      "kid": 0.21614013433456422,
+      "nll": 3.557466553878784,
+      "sampling_time_s": 51.14659710900014,
+      "throughput_img_per_s": 20.020882285046667,
+      "train_time_total_s": 397.4908995119931,
+      "train_time_per_epoch_s": 9.937272487799827
+    }
+  },
+  "DDPM": {
+    "baseline": {
+      "epochs": 30,
+      "params": 6993987,
+      "kid": 0.057495226860046385,
+      "sampling_time_s": 55.86759380700005,
+      "throughput_img_per_s": 18.32905142715661,
+      "train_time_total_s": 367.7161636189985,
+      "train_time_per_epoch_s": 12.257205453966616
+    },
+    "scaled-30ep": {
+      "epochs": 30,
+      "params": 14747107,
+      "kid": 0.056788194179534915,
+      "sampling_time_s": 71.56207315399843,
+      "throughput_img_per_s": 14.309255655525758,
+      "train_time_total_s": 528.5122486160035,
+      "train_time_per_epoch_s": 17.617074953866783
+    },
+    "scaled-40ep": {
+      "epochs": 40,
+      "params": 14747107,
+      "kid": 0.04451688289642334,
+      "sampling_time_s": 71.58788319499945,
+      "throughput_img_per_s": 14.304096647343364,
+      "train_time_total_s": 712.2074217410009,
+      "train_time_per_epoch_s": 17.80518554352502
+    }
+  }
+}
