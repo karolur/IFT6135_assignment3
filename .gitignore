@@ -210,3 +210,5 @@ __marimo__/
 question_1/cifar-10-python.tar.gz
 question_1/cifar-10-batches-py/
 **/.DS_Store
+question_2/data/
+**/__pycache__/
